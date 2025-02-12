@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <title>Music Website</title>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="nav-links">
+        <a href="#about" class="nav-link">Over</a>
+        <a href="#gallery" class="nav-link">PortFolio</a>
+      </div>
+      <div class="logo"><img src="img/logo.png" alt="" class="logo__img"></div>
+      <div class="nav-links">
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#booking" class="nav-link">Boeken</a>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Hero Section with Video -->
+  <div class="hero">
+    <video autoplay muted loop>
+      <source src="/img/wetransfer_naamloos-4-5-png_2025-02-04_1025/filmpje.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+  </div>
+ 
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2><span class="outline">About</span><span class="filled">Us</span></h2>
+      <div class="about-content">
+        <img src="/img/lars.png" alt="About">
+        <p class="about__p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum." Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quos repudiandae
+          totam laborum minima, alias provident quia repellendus, obcaecati ipsa dolore suscipit, expedita nulla debitis
+          laboriosam ea consequuntur. Esse, sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+          quisquam inventore nostrum id, quos placeat, in ut itaque non fugiat aperiam repudiandae? Reprehenderit, quia
+          accusamus nostrum corporis consequatur iusto molestias. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quidem optio, facilis laborum unde cupiditate modi itaque nemo, dolor, tempore vero vel a rem eaque nam
+          velit ad soluta sint quis!</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&q=80"
+            alt="Gallery 1">
+          <div class="gallery-overlay">
+            <p>Live Performance</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&q=80"
+            alt="Gallery 2">
+          <div class="gallery-overlay">
+            <p>Studio Session</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80"
+            alt="Gallery 3">
+          <div class="gallery-overlay">
+            <p>Backstage</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80"
+            alt="Gallery 4">
+          <div class="gallery-overlay">
+            <p>Equipment</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80"
+            alt="Gallery 5">
+          <div class="gallery-overlay">
+            <p>Concert</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1524650359799-842906ca1c06?auto=format&fit=crop&q=80"
+            alt="Gallery 6">
+          <div class="gallery-overlay">
+            <p>Festival</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <h2>Reviews</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar"></div>
+            <div>
+              <h3>Olgun Hristov</h3>
+              <p class="role">Client</p>
+            </div>
+          </div>
+          <p class="review-text">"Amazing experience! Highly recommended!"</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar"></div>
+            <div>
+              <h3>Saad Saeed</h3>
+              <p class="role">Client</p>
+            </div>
+          </div>
+          <p class="review-text">"Amazing experience! Highly recommended!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Booking Form -->
+  <section id="booking" class="booking">
+    <div class="container">
+      <h2>Question / Booking</h2>
+      <form class="booking-form" id="contactForm" action="sendmail.php" method="POST">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="E-Mail" required>
+          <input type="text" name="subject" placeholder="Type" required>
+          <input type="date" name="date">
+        </div>
+        <textarea name="message" placeholder="Question / description" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+
+
+
+
+ 
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact</h3>
+          <p><span class="icon">📞</span> +31302345678</p>
+          <p><span class="icon">✉️</span> info@mail.com</p>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link">📘</a>
+          <a href="#" class="social-link">🐦</a>
+          <a href="#" class="social-link">📸</a>
+          <a href="#" class="social-link">▶️</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script>
+    console.log('Hello World testen 20');
+ 
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+ 
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+ 
+</body>
+ 
+</html>
